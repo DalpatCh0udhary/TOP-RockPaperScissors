@@ -33,8 +33,7 @@ function playGame(){
             console.log(`You lose!! ${computerChoice} beats ${humanChoice}`)
             computerScore += 1;
         }
-        else if((computerChoice === "ROCK" && humanChoice === "ROCK") || (computerChoice === "PAPER" && humanChoice === "PAPER") ||
-        (computerChoice === "SCISSORS" && humanChoice === "SCISSORS")){
+        else if(computerChoice === humanChoice){
             console.log(`That's a tie!! You both choose the ${humanChoice}`)
         }
         else {
